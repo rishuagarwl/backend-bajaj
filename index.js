@@ -15,9 +15,6 @@ app.use((err, req, res, next) => {
         error: err.message
     });
 });
-const express = require('express');
-const bodyParser = require('body-parser');
-
 
 // POST Route for processing data with exception handling
 app.post('/bfhl', (req, res) => {
